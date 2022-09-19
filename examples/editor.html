@@ -5,7 +5,7 @@
         <title>多语言支持 - Editor.md examples</title>
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="../css/editormd.css" />
-        <link rel="shortcut icon" href="https://pandao.github.io/editor.md/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="https://dealsafe.github.io/editor.md/favicon.ico" type="image/x-icon" />
     </head>
     <body>
         <div id="layout">
@@ -44,13 +44,14 @@
                     width: "90%",
                     height: 640,
                     emoji : true,
-                    lang: "en",
+             
                     path : '../lib/'
                 });
                 
                 //console.log(editormd.defaults.lang); 
                 var lang = "en";
                 
+                testEditor.lang = lang;
                 // 动态加载语言包
                 // Dynamic load language package
                 $("#lang-select").change(function() {
